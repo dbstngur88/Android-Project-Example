@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fruits">
+        <item>사과</item>
+        <item>딸기</item>
+        <item>수박</item>
+        <item>바나나</item>
+        <item>복숭아</item>
+    </string-array>
+    <string-array name="foods">
+        <item>짜장면</item>
+        <item>짬뽕</item>
+        <item>고기</item>
+        <item>닭갈비</item>
+        <item>초밥</item>
+    </string-array>
+</resources>

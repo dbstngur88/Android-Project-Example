@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="성적입력"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/korean"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="국어점수"
+        android:inputType="number"
+    />
+    <EditText
+        android:id="@+id/english"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="영어점수"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/math"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="수학점수"
+        android:inputType="number"
+        />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="성적 계산"
+        />
+    <TextView
+        android:id="@+id/total"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="총점 : "
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/everage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="평균 : "
+        android:textSize="20sp"
+        />
+</LinearLayout>
